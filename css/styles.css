@@ -1,16 +1,47 @@
-li {
-  list-style-type: none;
-  color: #e40007;
+.blue {
+  background-color: blue;
 }
 
-@media screen and (min-width: 300px) {
-  .col-md-3 {
-    background-color: blue;
+.red {
+  background-color: red;
+}
+
+.donald-trump {
+  height: 300px;
+  background-color: orange;
+  width: 40%;
+}
+.hillary-clinton-is-old {
+  height: 200px;
+  background-color: grey;
+  width: 30%;
+}
+.roblox {
+  height: 100px;
+  background-color: black;
+  width: 10%;
+}
+@media screen and (min-width: 550px) {
+  .donald-trump {
+    background-color: purple;
+    width: 90%;
   }
 }
-
-@media screen and (min-width: 500px) {
-  .col-md-3 {
+@media screen and (min-width: 450px) {
+  .hillary-clinton-is-old {
+    background-color: pink;
+    width: 60%
+  }
+}
+@media screen and (min-width: 600px) {
+  .roblox {
+    background-color: red;
+    width: 20%;
+  }
+}
+@media screen and (max-width: 450px) {
+  .roblox {
     background-color: purple;
+    width: 15%;
   }
 }
